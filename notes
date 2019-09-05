@@ -1,0 +1,49 @@
+Weaken the impact of new connections without destroying the ability of a desperate system
+- increase hebian for successful ops
+-decrease the initial strengthen during successful ops
+this means random fires will be not be as rewardered like the rest
+
+NOT THE ISSUE
+the issue is that the pathways are conflicting, and one disrailmemnt is destroying the refinement of the other
+
+THE NUMBER FOR NEW CONNECTIONS MUST BE LESS THAN MAX CONNECTION - HEBBIAN IS THE SAME WAY
+
+Hebbian limit higher than normal is greater
+new problem - as long as two target one, it will keep firing, but not be of any use. Gotta be a way to stop from triggering neuron thats not doing any favors
+
+
+
+The current setup (rewarding after completetion and weight update when firing) can get perfect with set starting conditions
+
+Ideas to implement post firing growth:
+-list of neurons that have fired recently. 
+-if no action, they decline as normal. 
+-if dopamine, everyone on the list gets rewarded, the list is flushed
+-if punish, everyone is disuaded, the list is flushed
+-temporal based rewards, so new guys get bigger rewards
+
+when fired, add to list done but adds twice
+if oldest in list is greater than age max, chop it
+if dopamine increases, reward everyone on the list. 
+
+dont add to list twice
+
+
+fire- weaken connection (hebbian negates if next fires)
+add to lists
+
+if reward happens, update all weights, empty list
+
+
+inhibiting chance kills the network!!! gotta restart the current no inhib
+
+d is not recorded in txt file
+
+doesnt know what getting closer is. doesnt reward small victories
+
+gets stuck on new spots
+
+work of new inputs overrights work of old ones
+-implent a change where random connections are more contained
+
+the best learning time is 1. but it limits its upper limits
