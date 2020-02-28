@@ -68,21 +68,21 @@ def printMove(neurons,test,grid,pulses):
 #threshold is being stored multiple times although it doesnt change
 #sensitiviy is not dynamic
 
-#----------------------------
-#----Configuration------------------
-#--------------------------
-test = NN.Neuron_Network()
-
-best = 15
-
-grid_x = 3
-grid_y = 3
-grid_options = 2 #goal, flint, (empty is granted)
-inputs = grid_x*grid_y*grid_options
-outputs = 4 #up, down, left, right
-iterations = 1000000
-second_iterations = 2000
-file_name = "grid_network_delayed.txt"
+# #----------------------------
+# #----Configuration------------------
+# #--------------------------
+# test = NN.Neuron_Network()
+#
+# best = 15
+#
+# grid_x = 3
+# grid_y = 3
+# grid_options = 2 #goal, flint, (empty is granted)
+# inputs = grid_x*grid_y*grid_options
+# outputs = 4 #up, down, left, right
+# iterations = 1000000
+# second_iterations = 2000
+# file_name = "grid_network_delayed.txt"
 
 
 grid = G.Grid(grid_x,grid_y)
